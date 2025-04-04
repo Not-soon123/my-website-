@@ -2,9 +2,30 @@
 <html>
 <head>
     <title>My Website</title>
+    <style>
+        body{
+            font-family:Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color:#333;
+        }
+        p {
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to my site! </h1>
-    <p>This is my first Website on GitHub</p>
+    <p>This is my first Website on GitHub.</p>
+    <button onclick = "displayMessage()">Click me!</button>
+    <p id="message">Hy am Natan</p>
+
+    <script>
+        function displayMessage(){
+            document.getElementById('message').innerText = "Welcome to my site"
+        }
+    </script>
 </body>
 </html>
