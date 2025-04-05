@@ -17,11 +17,30 @@
     </style>
 </head>
 <body>
+    <nav>
+        <a href="#home">Home</a>
+         <a href="#about">About Me</a>
+         <a href="#contact">Contact</a>
+    </nav>
+<section>
     <h1>Welcome to my site! </h1>
-    <p>This is my first Website on GitHub.</p>
+    <p>This is my first Website on GitHub.I am excited to share my learning journey with you!</p>
     <button onclick = "displayMessage()">Click me!</button>
-    <p id="message">Hy am Natan</p>
-
+    <p id="message">Hi, I am Natan</p>
+</section>
+<section id="about">
+    <h1>About Me</h1>
+    <p>Hello! My name is Natan Tibebu. I am a beginner learning web development. This website is part of my learning journey. I enjoy exploring new technologies and building creative projects.</p>
+</section>
+<section id="contact">
+    <h1>Contact Me</h1>
+    <p>If you’d like to get in touch, feel free to email me at:</p>
+     <p><a href="mailto:natantibebu111@gmail.com">natantibebu111@gmail.com</a></p>
+</section>
+<footer>
+    <p>© 2025 Natan Tibebu. All rights reserved.</p>
+    <p>Follow me on <a href="#">GitHub</a> | <a href="#">LinkedIn</a></p>
+</footer>
     <script>
         function displayMessage(){
             document.getElementById('message').innerText = "Welcome to my site"
